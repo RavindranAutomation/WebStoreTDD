@@ -1,0 +1,50 @@
+14:34:10.678 [main] INFO  com.webstore.testcases.TC002_LoginTest - Entering email
+14:34:11.040 [main] INFO  com.webstore.testcases.TC002_LoginTest - Entering password
+14:34:11.321 [main] INFO  com.webstore.testcases.TC002_LoginTest - Clicking on Login button
+14:34:12.274 [main] INFO  com.webstore.testcases.TC002_LoginTest - Clicking on Logout button
+14:34:13.427 [main] INFO  com.webstore.testcases.TC002_LoginTest - ***** TC002_LoginTest is ended ****
+14:34:13.431 [main] INFO  com.webstore.testcases.TC002_LoginTest - Quitting web browser
+14:34:13.605 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Launching chrome browser
+14:34:17.211 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - ***** Starting TC003_ForgetPasswordTest ****
+14:34:17.213 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Clicking on login header link
+14:34:17.692 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Clicking on Forgot password link
+14:34:18.156 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Verifing title is displayed or not
+14:34:18.201 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Entering recovery email
+14:34:18.554 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Clicking on Recovery button
+14:34:18.946 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Validating recovery email sent message
+14:34:19.107 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - ***** TC002_LoginTest is ended ****
+14:34:19.269 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Quitting web browser
+14:35:30.387 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Ravin\git\WebStore\mastersuite.xml"
+14:35:30.807 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Ravin\git\WebStore\mastersuite.xml
+
+14:35:31.146 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Launching chrome browser
+14:35:35.891 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - ***** Starting TC001_AccountRegistrationTest  ****
+14:35:35.932 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Clicking on registration header link
+14:35:36.404 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Selecting gender as male
+14:35:36.440 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Entering firstname
+14:35:36.561 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Entering lastname
+14:35:36.676 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Entering email
+14:35:36.833 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Entering password
+14:35:36.966 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Entering confirm password
+14:35:37.080 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Clicking on Register buton
+14:35:38.025 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Validating registration success
+14:35:38.215 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - ***** TC001_AccountRegistrationTest is ended ****
+14:35:38.416 [main] INFO  com.webstore.testcases.TC001_Account_Registration_Test - Quitting web browser
+14:35:38.611 [main] INFO  com.webstore.testcases.TC002_LoginTest - Launching chrome browser
+14:35:42.644 [main] INFO  com.webstore.testcases.TC002_LoginTest - ***** Starting TC002_LoginTest ****
+14:35:42.648 [main] INFO  com.webstore.testcases.TC002_LoginTest - Clicking on Login header link
+14:35:43.109 [main] INFO  com.webstore.testcases.TC002_LoginTest - Entering email
+14:35:43.527 [main] INFO  com.webstore.testcases.TC002_LoginTest - Entering password
+14:35:43.808 [main] INFO  com.webstore.testcases.TC002_LoginTest - Clicking on Login button
+14:35:44.729 [main] INFO  com.webstore.testcases.TC002_LoginTest - Clicking on Logout button
+14:35:45.419 [main] INFO  com.webstore.testcases.TC002_LoginTest - ***** TC002_LoginTest is ended ****
+14:35:45.422 [main] INFO  com.webstore.testcases.TC002_LoginTest - Quitting web browser
+14:35:45.606 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Launching chrome browser
+14:35:49.284 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - ***** Starting TC003_ForgetPasswordTest ****
+14:35:49.287 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Clicking on login header link
+14:35:49.750 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Clicking on Forgot password link
+14:35:50.195 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Verifing title is displayed or not
+14:35:50.241 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Entering recovery email
+14:35:50.604 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Clicking on Recovery button
+14:35:50.984 [main] INFO  com.webstore.testcases.TC003_ForgetPasswordTest - Validating recovery email sent message
