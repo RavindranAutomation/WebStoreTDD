@@ -8,13 +8,15 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.webstore.testcases.TC003_ForgetPasswordTest">
+      <class name="com.webstore.testcases.TC004_SearchTest">
         <methods>
-          <include name="verify_ForgotPassword"/>
+          <include name="loginApp"/>
+          <include name="verifySearchWithInvalidProduct"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="logoutApp"/>
         </methods>
-      </class> <!-- com.webstore.testcases.TC003_ForgetPasswordTest -->
+      </class> <!-- com.webstore.testcases.TC004_SearchTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

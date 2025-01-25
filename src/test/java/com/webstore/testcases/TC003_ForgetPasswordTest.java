@@ -13,7 +13,7 @@ public class TC003_ForgetPasswordTest extends BaseClass {
 	LoginPage loginPage;
 	PassRecoveryPage recPage;
 
-	@Test(groups = { "Sanity", "Master" })
+	@Test(groups = { "Sanity", "Master"})
 	public void verify_ForgotPassword() {
 		
 		logger.info("***** Starting TC003_ForgetPasswordTest ****");

@@ -16,15 +16,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import com.webstore.pageobjects.HeadersPage;
+import com.webstore.pageobjects.LoginPage;
+
 public class BaseClass {
 
 	public static WebDriver driver;
-	public Logger logger; // Log4j
+	public static Logger logger; // Log4j
 	public static Properties p;
+	static HeadersPage headPage;
+	static LoginPage loginPage;
 
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
 	@Parameters({ "os", "browser" })
@@ -92,6 +98,40 @@ public class BaseClass {
 
 		return targetFilePath;
 
+	}
+
+	public static void loginApplication() {
+		logger.info("***** Starting Login reusable method ****");
+		try {
+			headPage = new HeadersPage(driver);
+			logger.info("Clicking on Login header link");
+			headPage.clickOnLoginHeader();
+			loginPage = new LoginPage(driver);
+			logger.info("Entering email");
+			loginPage.enterEmail(p.getProperty("email"));
+			logger.info("Entering password");
+			loginPage.enterPassword(p.getProperty("password"));
+			logger.info("Clicking on Login button");
+			loginPage.clickOnLoginBtn();
+			Assert.assertEquals(true, headPage.isUserNameDispalyed());
+
+		} catch (Exception e) {
+			logger.error("Login test is failed : " + e.getMessage());
+			Assert.fail("Login test is failed :" + e.getMessage());
+		}
+		
+		
+	}
+	
+	public static void logoutApplication() {
+		logger.info("Clicking on Logout button");
+		try {
+			headPage.clickOnLogoutHeader();
+		} catch (Exception e) {
+			logger.error("Logout is failed : " + e.getMessage());
+			Assert.fail("Logout is failed :" + e.getMessage());
+		}
+		
 	}
 
 }

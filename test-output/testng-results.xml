@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-25T14:37:21 IST" name="Suite" finished-at="2025-01-25T14:37:46 IST" duration-ms="24941">
+  <suite started-at="2025-01-25T22:41:05 IST" name="Suite" finished-at="2025-01-25T22:41:49 IST" duration-ms="43808">
     <groups>
       <group name="Master">
-        <method signature="TC001_Account_Registration_Test.verify_account_registration()[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@6f2cfcc2]" name="verify_account_registration" class="com.webstore.testcases.TC001_Account_Registration_Test"/>
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@2a5b3fee]" name="verify_Login" class="com.webstore.testcases.TC002_LoginTest"/>
-        <method signature="TC003_ForgetPasswordTest.verify_ForgotPassword()[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@7c1e2a2d]" name="verify_ForgotPassword" class="com.webstore.testcases.TC003_ForgetPasswordTest"/>
+        <method signature="TC001_Account_Registration_Test.verify_account_registration()[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@2101b44a]" name="verify_account_registration" class="com.webstore.testcases.TC001_Account_Registration_Test"/>
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@25e2ab5a]" name="verify_Login" class="com.webstore.testcases.TC002_LoginTest"/>
+        <method signature="TC003_ForgetPasswordTest.verify_ForgotPassword()[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@35e5d0e5]" name="verify_ForgotPassword" class="com.webstore.testcases.TC003_ForgetPasswordTest"/>
+        <method signature="TC004_SearchTest.verifySearchWithoutAddingAnyProduct()[pri:1, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" name="verifySearchWithoutAddingAnyProduct" class="com.webstore.testcases.TC004_SearchTest"/>
+        <method signature="TC004_SearchTest.verifySearchWithValidProduct()[pri:2, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" name="verifySearchWithValidProduct" class="com.webstore.testcases.TC004_SearchTest"/>
+        <method signature="TC004_SearchTest.verifySearchWithInvalidProduct()[pri:3, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" name="verifySearchWithInvalidProduct" class="com.webstore.testcases.TC004_SearchTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@2a5b3fee]" name="verify_Login" class="com.webstore.testcases.TC002_LoginTest"/>
-        <method signature="TC003_ForgetPasswordTest.verify_ForgotPassword()[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@7c1e2a2d]" name="verify_ForgotPassword" class="com.webstore.testcases.TC003_ForgetPasswordTest"/>
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@25e2ab5a]" name="verify_Login" class="com.webstore.testcases.TC002_LoginTest"/>
+        <method signature="TC003_ForgetPasswordTest.verify_ForgotPassword()[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@35e5d0e5]" name="verify_ForgotPassword" class="com.webstore.testcases.TC003_ForgetPasswordTest"/>
+        <method signature="TC004_SearchTest.verifySearchWithoutAddingAnyProduct()[pri:1, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" name="verifySearchWithoutAddingAnyProduct" class="com.webstore.testcases.TC004_SearchTest"/>
+        <method signature="TC004_SearchTest.verifySearchWithValidProduct()[pri:2, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" name="verifySearchWithValidProduct" class="com.webstore.testcases.TC004_SearchTest"/>
+        <method signature="TC004_SearchTest.verifySearchWithInvalidProduct()[pri:3, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" name="verifySearchWithInvalidProduct" class="com.webstore.testcases.TC004_SearchTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_Account_Registration_Test.verify_account_registration()[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@6f2cfcc2]" name="verify_account_registration" class="com.webstore.testcases.TC001_Account_Registration_Test"/>
+        <method signature="TC001_Account_Registration_Test.verify_account_registration()[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@2101b44a]" name="verify_account_registration" class="com.webstore.testcases.TC001_Account_Registration_Test"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-01-25T14:37:21 IST" name="Test" finished-at="2025-01-25T14:37:46 IST" duration-ms="24941">
-      <class name="com.webstore.testcases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.webstore.testcases.TC002_LoginTest@2a5b3fee]" started-at="2025-01-25T14:37:33 IST" name="setup" finished-at="2025-01-25T14:37:37 IST" duration-ms="3917" status="PASS">
+    <test started-at="2025-01-25T22:41:05 IST" name="Test" finished-at="2025-01-25T22:41:49 IST" duration-ms="43808">
+      <class name="com.webstore.testcases.TC004_SearchTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:31 IST" name="setup" finished-at="2025-01-25T22:41:35 IST" duration-ms="4052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,28 +34,86 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Login()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@2a5b3fee]" started-at="2025-01-25T14:37:37 IST" name="verify_Login" finished-at="2025-01-25T14:37:39 IST" duration-ms="1913" status="PASS">
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:35 IST" name="loginApp" finished-at="2025-01-25T22:41:38 IST" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="verifySearchWithoutAddingAnyProduct()[pri:1, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:38 IST" name="verifySearchWithoutAddingAnyProduct" finished-at="2025-01-25T22:41:38 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutAddingAnyProduct -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:38 IST" name="logoutApp" finished-at="2025-01-25T22:41:39 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:39 IST" name="loginApp" finished-at="2025-01-25T22:41:41 IST" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="verifySearchWithValidProduct()[pri:2, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:41 IST" name="verifySearchWithValidProduct" finished-at="2025-01-25T22:41:43 IST" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:43 IST" name="logoutApp" finished-at="2025-01-25T22:41:44 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:44 IST" name="loginApp" finished-at="2025-01-25T22:41:46 IST" duration-ms="2253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:3, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:46 IST" name="verifySearchWithInvalidProduct" finished-at="2025-01-25T22:41:47 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:47 IST" name="logoutApp" finished-at="2025-01-25T22:41:49 IST" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webstore.testcases.TC004_SearchTest@73173f63]" started-at="2025-01-25T22:41:49 IST" name="tearDown" finished-at="2025-01-25T22:41:49 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webstore.testcases.TC004_SearchTest -->
+      <class name="com.webstore.testcases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.webstore.testcases.TC002_LoginTest@25e2ab5a]" started-at="2025-01-25T22:41:15 IST" name="setup" finished-at="2025-01-25T22:41:20 IST" duration-ms="4511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Login()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@25e2ab5a]" started-at="2025-01-25T22:41:20 IST" name="verify_Login" finished-at="2025-01-25T22:41:22 IST" duration-ms="2764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login -->
-        <test-method is-config="true" signature="verify_Logout()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@2a5b3fee]" started-at="2025-01-25T14:37:39 IST" name="verify_Logout" finished-at="2025-01-25T14:37:40 IST" duration-ms="1230" status="PASS">
+        <test-method is-config="true" signature="verify_Logout()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@25e2ab5a]" started-at="2025-01-25T22:41:23 IST" name="verify_Logout" finished-at="2025-01-25T22:41:23 IST" duration-ms="791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Logout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@2a5b3fee]" started-at="2025-01-25T14:37:40 IST" name="tearDown" finished-at="2025-01-25T14:37:40 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webstore.testcases.TC002_LoginTest@25e2ab5a]" started-at="2025-01-25T22:41:23 IST" name="tearDown" finished-at="2025-01-25T22:41:24 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.webstore.testcases.TC002_LoginTest -->
       <class name="com.webstore.testcases.TC001_Account_Registration_Test">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@6f2cfcc2]" started-at="2025-01-25T14:37:22 IST" name="setup" finished-at="2025-01-25T14:37:30 IST" duration-ms="8448" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@2101b44a]" started-at="2025-01-25T22:41:06 IST" name="setup" finished-at="2025-01-25T22:41:10 IST" duration-ms="4795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,24 +122,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@6f2cfcc2]" started-at="2025-01-25T14:37:30 IST" name="verify_account_registration" finished-at="2025-01-25T14:37:32 IST" duration-ms="2234" status="PASS">
+        <test-method signature="verify_account_registration()[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@2101b44a]" started-at="2025-01-25T22:41:10 IST" name="verify_account_registration" finished-at="2025-01-25T22:41:14 IST" duration-ms="4050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@6f2cfcc2]" started-at="2025-01-25T14:37:33 IST" name="tearDown" finished-at="2025-01-25T14:37:33 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webstore.testcases.TC001_Account_Registration_Test@2101b44a]" started-at="2025-01-25T22:41:15 IST" name="tearDown" finished-at="2025-01-25T22:41:15 IST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.webstore.testcases.TC001_Account_Registration_Test -->
       <class name="com.webstore.testcases.TC003_ForgetPasswordTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@7c1e2a2d]" started-at="2025-01-25T14:37:40 IST" name="setup" finished-at="2025-01-25T14:37:44 IST" duration-ms="3762" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@35e5d0e5]" started-at="2025-01-25T22:41:24 IST" name="setup" finished-at="2025-01-25T22:41:28 IST" duration-ms="4413" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,18 +148,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_ForgotPassword()[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@7c1e2a2d]" started-at="2025-01-25T14:37:44 IST" name="verify_ForgotPassword" finished-at="2025-01-25T14:37:46 IST" duration-ms="1897" status="PASS">
+        <test-method signature="verify_ForgotPassword()[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@35e5d0e5]" started-at="2025-01-25T22:41:28 IST" name="verify_ForgotPassword" finished-at="2025-01-25T22:41:31 IST" duration-ms="2945" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_ForgotPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@7c1e2a2d]" started-at="2025-01-25T14:37:46 IST" name="tearDown" finished-at="2025-01-25T14:37:46 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.webstore.testcases.TC003_ForgetPasswordTest@35e5d0e5]" started-at="2025-01-25T22:41:31 IST" name="tearDown" finished-at="2025-01-25T22:41:31 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

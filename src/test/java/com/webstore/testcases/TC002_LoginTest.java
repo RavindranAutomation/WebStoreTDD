@@ -11,10 +11,8 @@ import com.webstore.testbase.BaseClass;
 public class TC002_LoginTest extends BaseClass {
 	HeadersPage headPage;
 	LoginPage loginPage;
-	
 
-
-	@Test(groups = {"Sanity", "Master"})
+	@Test(groups = { "Sanity", "Master" })
 	public void verify_Login() {
 		logger.info("***** Starting TC002_LoginTest ****");
 		try {
@@ -29,8 +27,7 @@ public class TC002_LoginTest extends BaseClass {
 			logger.info("Clicking on Login button");
 			loginPage.clickOnLoginBtn();
 			Assert.assertEquals(true, headPage.isUserNameDispalyed());
-			
-			
+
 		} catch (Exception e) {
 			logger.error("Login test is failed : " + e.getMessage());
 			Assert.fail("Login test is failed :" + e.getMessage());

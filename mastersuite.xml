@@ -9,11 +9,12 @@
 
 	<test thread-count="2" name="Test">
 		<parameter name="os" value="windows" />
-		<parameter name="browser" value="edge" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.webstore.testcases.TC001_Account_Registration_Test" />
 			<class name="com.webstore.testcases.TC002_LoginTest" />
 			<class name="com.webstore.testcases.TC003_ForgetPasswordTest" />
+			<class name="com.webstore.testcases.TC004_SearchTest" />
 		</classes>
 	</test> <!--Test -->
 </suite> <!--Suite -->
